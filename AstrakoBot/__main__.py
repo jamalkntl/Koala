@@ -87,7 +87,7 @@ Dan berikut ini:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-ASTRAKOBOT_IMG = "https://telegra.ph/file/20f3bf747eb32501abc7a.jpg"
+ASTRAKOBOT_IMG = "https://telegra.ph/file/e69cbfc77b28ef6489d7c.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 AstrakoBot is hosted on its own server and doesn't require any donations as of now but \
