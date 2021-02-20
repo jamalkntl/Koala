@@ -53,14 +53,15 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 
 Hi {}, nama saya {}!
-Saya adalah robot yang bisa memecahkan biji peler mu. 
-Saya ada untuk membantai para parasit telegram.
-Dibuat khusus untuk memberantas jamet tele kampang yang meresahkan.
-Saya hanya robot tapi juga bisa sange, jangan lupa pap tt ya asu!!
+Saya adalah robot pintar yang dibuat khusus untuk menjaga dan meramaikan grupchat. 
+
+Tambahkan saya ke grupmu dan atur saya sebagai Admin (Edit -> Admins -> tambahkan admin) dan biarkan saya mengguncang grupmu!
+
+Saya hanya robot, tapi kalau mau mutualan skuylaa xixixi
 ━─━─━─━─━─━─━─━─━─━─━
 
-▪**Managed with by:** [KOALA🐨](https://t.me/mixiologist)
-▪**JOIN MY CH OFFICIAL:** [CTH](http://t.me/caritemanhidupofficial)
+▪**Managed with love by:** [Mas Boi](https://t.me/boiii999)
+▪**Maintened by:** [Om Koala](https://t.me/mixiologist)
 
 ━─━─━─━─━─━─━─━─━─━─━
 Tekan /help untuk melihat daftar fitur saya.
@@ -86,7 +87,7 @@ Dan berikut ini:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-ASTRAKOBOT_IMG = "https://i.ibb.co/9gqtY04/IMG-20210129-004109-607.jpg"
+ASTRAKOBOT_IMG = "https://telegra.ph/file/20f3bf747eb32501abc7a.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 AstrakoBot is hosted on its own server and doesn't require any donations as of now but \
@@ -209,14 +210,14 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="🤖 Add Saya ke group",
+                            text="Add Saya ke group",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
-                             text="👥 CTH Grup",
-                             url=f"https://t.me/caritemanhidop"),
+                             text="Mas Boi",
+                             url=f"https://t.me/boiii999"),
                      
                          InlineKeyboardButton(
                              text="🍭 Help & Command",
@@ -224,8 +225,8 @@ def start(update: Update, context: CallbackContext):
                      ],
                      [
                          InlineKeyboardButton(
-                             text="🚫 Gban Logs",
-                             url="https://t.me/joinchat/SKYP-Hv8tqZ-UvYq")
+                             text="My Instagram",
+                             url="https://www.instagram.com/aipmarvelous/")
                      ]]))
     else:
         update.effective_message.reply_text(
