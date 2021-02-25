@@ -58,12 +58,9 @@ Saya adalah robot pintar yang dibuat khusus untuk menjaga dan meramaikan grupcha
 Tambahkan saya ke grupmu dan atur saya sebagai Admin (Edit -> Admins -> tambahkan admin) dan biarkan saya mengguncang grupmu!
 
 Saya hanya robot, tapi kalau mau mutualan skuylaa xixixi
-━─━─━─━─━─━─━─━─━─━─━
 
 ▪**Managed with love by:** [Mas Boi](https://t.me/boiii999)
-▪**Maintened by:** [Om Koala](https://t.me/mixiologist)
 
-━─━─━─━─━─━─━─━─━─━─━
 Tekan /help untuk melihat daftar fitur saya.
 """
 
