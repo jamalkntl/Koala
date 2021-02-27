@@ -1,5 +1,5 @@
 {
-      "name": "KOALA-BOT",
+      "name": "BOI-BOT",
       "description": "A modular Telegram group management bot.",
       "logo": "https://telegra.ph/file/661db62b099144e5991c5.jpg",
       "keywords": [
@@ -46,12 +46,12 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "mixiologist"
+         "value": "boiii999"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to AstrakoBot support than consider you made an enemy.",
          "required": true,
-         "value": "@caritemanhidop"
+         "value": "initemanonline"
       },
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
