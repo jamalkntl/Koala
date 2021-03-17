@@ -1,7 +1,7 @@
 {
-      "name": "BOI-BOT",
+      "name": "jamalkntll-bot",
       "description": "A modular Telegram group management bot.",
-      "logo": "https://telegra.ph/file/d316860f875636c0c13bd.jpg",
+      "logo": "https://telegra.ph/file/214f808fc41b5aee0a36f.jpg",
       "keywords": [
          "telegram",
          "anime",
@@ -9,7 +9,7 @@
          "manager",
          "AstrakoBot"
       ],   
-   "repository": "https://github.com/boiss69/Koala",
+   "repository": "https://github.com/jamalkntl/Koala",
    "addons": [
       {
          "options": {
@@ -42,11 +42,11 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1028926708"
+         "value": "1482564182"
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "boiii999"
+         "value": "jamalkntll"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to AstrakoBot support than consider you made an enemy.",
@@ -138,7 +138,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
          "required": false,
-         "value": "https://t.me/boiii999"
+         "value": "https://t.me/jamalkntll"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
