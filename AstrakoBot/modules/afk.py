@@ -57,9 +57,9 @@ def no_longer_afk(update: Update, context: CallbackContext):
         firstname = update.effective_user.first_name
         try:
             options = [
-                '{} darimana aja? so sibuk anjing!', '{} balik lagi anjing!', 'kiw {} pasti abis parming ya?',
-                '{} babu gua baru balik, bagi hasil parmingan ajg', '{} si anjing balik lagi!', '{} si goblok sok sibuk!',
-                'Welcome back anak haram! {}', 'kemana aja lu {}?\nPasti abis parming!'
+                '{} ᴅᴀʀɪ ᴍᴀɴᴀ ᴀᴊᴀ ᴍᴇᴛ? ʙᴜᴀᴛ sʟᴏᴡᴍᴏ ᴍᴜʟᴜ ɴʏᴇᴛ!', '{} ʙᴀʟɪᴋ ʟᴀɢɪ ᴍᴇᴛ!', 'ᴋɪᴡ {} ᴘᴀsᴛɪ ᴀʙɪs ɴɢᴇsʟᴏᴡᴍᴏ ʏᴀ?',
+                '{} sɪ ᴊᴀᴍᴇᴛ ʙᴀʀᴜ ʙᴀʟɪᴋ, ᴍᴀɴᴀ ᴠɪᴅᴇᴏɴʏᴀ ᴀᴊɢɢ', '{} sɪ ᴊᴀᴍᴇᴛ ʙᴀʟɪᴋ ʟᴀɢɪ!', '{} sɪ ᴊᴀᴍᴇᴛ sᴏᴋ ᴋᴇʀᴇɴ sᴏᴋ sɪʙᴜᴋ ᴀᴊɢ',
+                'ᴡᴇʟᴄᴏᴍᴇ ʙᴀᴄᴋ ᴊᴀᴍᴇᴛ! {}', 'ᴅᴀʀɪᴍᴀɴᴀ ᴀᴊᴀ ʟᴜ {}?\nᴘᴀsᴛɪ ᴀʙɪs ᴅᴀʀɪ sᴛᴀᴅɪᴏɴ ʙᴜᴀᴛ sʟᴏᴡᴍᴏ!'
             ]
             chosen_option = random.choice(options)
             update.effective_message.reply_text(chosen_option.format(firstname))
