@@ -52,24 +52,24 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 
-Hi {}, nama saya {}!
-Saya adalah robot pintar yang dibuat khusus untuk menjaga dan meramaikan grupchat. 
+ʜɪ {}, ɴᴀᴍᴀ sᴀʏᴀ {}!
+sᴀʏᴀ ᴀᴅᴀʟᴀʜ ʙᴏᴛ ʏᴀɴɢ ᴅɪʙᴜᴀᴛ ᴋʜᴜsᴜs ᴜɴᴛᴜᴋ ᴍᴇɴᴊᴀɢᴀ ᴅᴀɴ ᴍᴇʀᴀᴍᴀɪᴋᴀɴ ɢʀᴜᴘ ᴄʜᴀᴛ sɪᴀ. 
 
-Tambahkan saya ke grupmu dan atur saya sebagai Admin (Edit -> Admins -> tambahkan admin) dan biarkan saya mengguncang grupmu!
+ᴛᴀᴍʙᴀʜᴋᴀɴ sᴀʏᴀ ᴋᴇ ɢʀᴜᴘ ᴍᴜ ᴅᴀɴ ᴀᴛᴜʀ sᴀʏᴀ sᴇʙᴀɢᴀɪ ᴀᴅᴍɪɴ [ᴇᴅɪᴛ -> ᴀᴅᴍɪɴs -> ᴛᴀᴍʙᴀʜᴋᴀɴ ᴀᴅᴍɪɴ) ᴅᴀɴ ʙɪᴀʀᴋᴀɴ sᴀʏᴀ ᴍᴇɴɢɢᴜɴᴄᴀɴɢ ɢʀᴜᴘᴍᴜ!
 
-Saya hanya robot, tapi kalau mau mutualan skuylaa xixixi
+sᴀʏᴀ ʜᴀɴʏᴀ ʙᴏᴛ, ᴛᴀᴘɪ ᴋᴀʟᴏ ᴍᴀᴜ ʙᴇʀᴋᴀᴡᴀɴ sᴀʙɪ sɪ ᴡᴋᴡᴋ
 
-▪**Managed with love by:** [Mas Boi](https://t.me/boiii999)
+⚅**ᴍᴀɴᴀɢᴇᴅ ᴡɪᴛʜ ɴɢᴀɴᴛᴜᴋ ʙʏ :** [ʲᵃᵐᵃˡᵏⁿᵗˡ](https://t.me/@jamalkntll)
 
-Tekan /help untuk melihat daftar fitur saya.
+ᴛᴇᴋᴀɴ /ʜᴇʟᴘ ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ ᴅᴀғᴛᴀʀ ғɪᴛᴜʀ sᴀʏᴀ.
 """
 
 HELP_STRINGS = """
-Hai! Nama saya adalah *{}*.
-Saya adalah manusia robot dengan beberapa kelebihan yang menyenangkan! Silahkan lihat berikut ini untuk beberapa ide dari \
-hal-hal yang bisa saya bantu.
+ʜᴀɪ! ɴᴀᴍᴀ sᴀʏᴀ ᴀᴅᴀʟᴀʜ  *{}*.
+sᴀʏᴀ ᴀᴅᴀʟᴀʜ  ᴍᴀɴᴜsɪᴀ ʀᴏʙᴏᴛ ᴅᴇɴɢᴀɴ ʙᴇʙᴇʀᴀᴘᴀ ᴋᴇʟᴇʙɪʜᴀɴ ʏᴀɴɢ ᴍᴇɴʏᴇɴᴀɴɢᴋᴀɴ ᴅᴀɴ sᴀɪᴋ! sɪʟᴀʜᴋᴀɴ ʟɪᴀᴛ  ʙᴇʀɪᴋᴜᴛ ɪɴɪ ᴜɴᴛᴜᴋ ʙᴇʙᴇʀᴀᴘᴀ  ɪᴅᴇ ᴅᴀʀɪ \
+ʜᴀʟ ʜᴀʟ ʏᴀɴɢ ʙɪsᴀ sᴀʏᴀ ʙᴀɴᴛᴜ .
 
-*Perintah utama* yang tersedia:
+*ᴘᴇʀɪɴᴛᴀʜ ᴜᴛᴀᴍᴀ* ʏᴀɴɢ ᴛᴇʀsᴇᴅɪᴀ:
  - /start: mulai bot
  - /help: PM Anda dengan pesan ini.
  - /help <module name>: PM Anda dengan info tentang modul itu.
